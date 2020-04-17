@@ -9,7 +9,7 @@ import dagger.Provides;
 @Module
 public class TestModule {
     @Provides
-    public ThirdObj getThirdbj(){
+    public ThirdObj getThirdObj(){
         return new ThirdObj();
     }
 }
