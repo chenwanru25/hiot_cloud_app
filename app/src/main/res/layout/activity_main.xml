@@ -7,7 +7,7 @@
     android:orientation="vertical"
     tools:context=".ui.main.MainActivity">
 
-    <androidx.viewpager.widget.ViewPager
+    <com.huatec.hiot_cloud.widget.NoSlideViewPager
         android:id="@+id/vp_main"
         android:layout_width="match_parent"
         android:layout_height="0dp"
