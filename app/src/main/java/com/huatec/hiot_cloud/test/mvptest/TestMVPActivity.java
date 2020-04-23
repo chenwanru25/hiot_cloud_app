@@ -19,8 +19,7 @@ import javax.inject.Inject;
 
 public class TestMVPActivity extends BaseActivity<TestView, TestPresenter> implements TestView {
 
-    @Inject
-    TestPresenter presenter;
+    @Inject TestPresenter presenter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
