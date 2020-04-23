@@ -1,18 +1,13 @@
 package com.huatec.hiot_cloud.test.mvptest;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.TextView;
 import android.widget.Toast;
 
 import com.huatec.hiot_cloud.R;
-import com.huatec.hiot_cloud.base.BaseActivity;
-import com.huatec.hiot_cloud.test.dagger2test.DaggerPresenterComponent;
-import com.huatec.hiot_cloud.test.dagger2test.PresenterComponent;
+import com.huatec.hiot_cloud.ui.base.BaseActivity;
 import com.huatec.hiot_cloud.test.mvptest.model.User;
 
 import javax.inject.Inject;

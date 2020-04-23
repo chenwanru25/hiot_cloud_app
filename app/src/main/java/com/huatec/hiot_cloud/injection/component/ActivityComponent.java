@@ -16,7 +16,7 @@
 package com.huatec.hiot_cloud.injection.component;
 
 
-import com.huatec.hiot_cloud.main.MainActivity;
+import com.huatec.hiot_cloud.ui.main.MainActivity;
 import com.huatec.hiot_cloud.injection.PerActivity;
 import com.huatec.hiot_cloud.injection.module.ActivityModule;
 import com.huatec.hiot_cloud.test.mvptest.TestMVPActivity;

@@ -1,4 +1,4 @@
-package com.huatec.hiot_cloud.base;
+package com.huatec.hiot_cloud.ui.base;
 
 /**
  * MVP架构presenter层基类

@@ -20,7 +20,7 @@
         <activity android:name=".test.mvptest.TestMVPActivity">
 
         </activity>
-        <activity android:name=".main.MainActivity" />
+        <activity android:name=".ui.main.MainActivity" />
     </application>
 
 </manifest>
