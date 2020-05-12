@@ -15,12 +15,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".test.networktest.TestRetrofitActivity">
+        <activity android:name=".test.networktest.TestRxJavaActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".test.networktest.TestGsonActivity">
+
+        </activity>
+        <activity android:name=".test.networktest.TestRetrofitActivity">
+
         </activity>
         <activity android:name=".test.networktest.TestOkHttpActivity">
 
@@ -31,7 +37,7 @@
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:launchMode="singleTask"
             android:screenOrientation="portrait"
-            android:windowSoftInputMode="adjustUnspecified|stateHidden"></activity>
+            android:windowSoftInputMode="adjustUnspecified|stateHidden" />
         <activity android:name=".test.mvptest.TestMVPActivity" />
     </application>
 

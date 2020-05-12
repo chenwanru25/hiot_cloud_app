@@ -5,39 +5,52 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".test.networktest.TestRetrofitActivity">
+    tools:context=".test.networktest.TestGsonActivity">
 
     <Button
-        android:id="@+id/btn_retrofit_enqueue"
-        android:text="enqueue"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/btn_retrofit_login"
-        android:text="登录"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-    <EditText
-        android:id="@+id/et_token_retrofit"
-        android:hint="用户token"
+        android:id="@+id/btn_to_json"
+        android:text="对象转Json"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
     <Button
-        android:id="@+id/btn_retrofit_userinfo"
-        android:text="用户信息"
+        android:id="@+id/btn_from_json"
+        android:text="Json转对象"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <Button
-        android:id="@+id/btn_retrofit_update_email"
-        android:text="修改邮箱"
+        android:id="@+id/btn_gson_list"
+        android:text="Json转列表"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
     <Button
-        android:id="@+id/btn_retrofit_register"
-        android:text="注册"
+        android:id="@+id/btn_gson_map"
+        android:text="Json转Map"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_gson_nest"
+        android:text="Json转嵌套列表"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:id="@+id/btn_to_json1"
+        android:text="对象转Json作业"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_gson_nest1"
+        android:text="Json转嵌套对象作业"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
 
 </LinearLayout>

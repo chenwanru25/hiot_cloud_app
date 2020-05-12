@@ -41,5 +41,16 @@ dependencies {
     implementation 'com.squareup.retrofit2:retrofit:2.6.2'
     implementation 'com.squareup.retrofit2:converter-gson:2.6.2'
 
+    //使用gson解析json
+    //https://github.com/google/gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //rxjava
+    //适配retrofit支持rxjava
+    implementation 'com.squareup.retrofit2:adapter-rxjava2:2.6.2'
+
+    //https://github.com/ReactiveX/RxAndroid
+    implementation 'io.reactivex.rxjava2:rxandroid:2.1.1'
+
 
 }
