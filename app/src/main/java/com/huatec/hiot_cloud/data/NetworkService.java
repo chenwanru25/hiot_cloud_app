@@ -20,7 +20,10 @@ import retrofit2.http.Query;
 /**
  * 网络请求接口
  */
-public interface NetService {
+public interface NetworkService {
+
+    public static final String BASE_URL = "http://114.67.88.191:8080/";
+
     /**
      * 登录
      * @param userName

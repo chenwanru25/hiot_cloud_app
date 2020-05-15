@@ -26,4 +26,12 @@ public class Constans {
      * 主页viewpager的我的fragment序号
      */
     public static final int MAIN_VIEWPAGER_INDEX_MINE = 3;
+    /**
+     * APP登录的loginCode
+     */
+    public static final String LOGIN_CODE_APP = "app";
+    /**
+     * APP的注册用户类型
+     */
+    public static final String REGISTER_TYPE_NORMAL = "1";
 }

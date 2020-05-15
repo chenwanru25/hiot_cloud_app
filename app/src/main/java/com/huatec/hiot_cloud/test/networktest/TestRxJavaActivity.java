@@ -11,7 +11,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.huatec.hiot_cloud.R;
-import com.huatec.hiot_cloud.data.NetService;
+import com.huatec.hiot_cloud.data.NetworkService;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;
@@ -27,7 +27,7 @@ public class TestRxJavaActivity extends AppCompatActivity {
     private static final String TAG = "TestRxjavaActivity"  ;
     private Retrofit retrofit;
 
-    private NetService service;
+    private NetworkService service;
 
     private EditText etToken;
 
@@ -302,6 +302,6 @@ public class TestRxJavaActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .addCallAdapterFactory(RxJava2CallAdapterFactory.create())
                 .build();
-        service = retrofit.create(NetService.class);
+        service = retrofit.create(NetworkService.class);
     }
 }
